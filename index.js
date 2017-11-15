@@ -8,7 +8,7 @@ function getPaths(abs, rel, ext) {
       if (stats.isDirectory()) {
         // a directory
         return {
-          rel: path.join(rel, `index.${ext}`),
+          rel: path.join(rel, `html.${ext}`),
           ext
         };
       }
